@@ -1,0 +1,8 @@
+Django==1.11.2
+Dolt==0.9.0
+httplib2==0.10.3
+pkg-resources==0.0.0
+-e git+https://github.com/podio/podio-py.git@8bb2e7667b1a66da53842c8bb25f8c33ee46b10a#egg=pypodio2
+python-dateutil==2.6.0
+pytz==2017.2
+six==1.10.0

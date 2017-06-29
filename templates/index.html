@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="{% static 'script.js' %}"></script>
+    <title>Актуальные конверсии</title>
+</head>
+<body>
+    <main>
+        <section>
+            <div id="conversion">
+                <p>Пожалуйста, подождите, сервис немножко медленный :)</p>
+            </div>
+        </section>
+        <section>
+            <div>
+                <button id="renew" name="renew">Пересчитать</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
