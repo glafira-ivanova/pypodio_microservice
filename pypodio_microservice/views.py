@@ -10,5 +10,4 @@ def get_conversion(request):
 
 
 def get_logs(request):
-    with open(client_settings.log_file, 'r') as log:
-        return HttpResponse(log.read(), content_type='text/plain')
+    return HttpResponse(open(client_settings.log_file).read(), content_type='text/plain')
